@@ -15,7 +15,7 @@ public class MainMenuScreen implements Screen {
     public MainMenuScreen(final App game) {
         this.game = game;
         this.camera = new OrthographicCamera();
-        camera.setToOrtho(false, 600, 800);
+        camera.setToOrtho(false, 800, 480);
 
         Gdx.graphics.setContinuousRendering(false);
         Gdx.graphics.requestRendering();
